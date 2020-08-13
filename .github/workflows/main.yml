@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: PyCaret autoML
         id: model
-        uses: spowers42/automl-action@v1.0.2
+        uses: spowers42/automl-action@v1.0.3
         with:
           INPUT_DATASET: "juice"
           TARGET: "Purchase"
